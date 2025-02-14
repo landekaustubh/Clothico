@@ -1,0 +1,5 @@
+package com.clothico.entities;
+
+public class User {
+
+}

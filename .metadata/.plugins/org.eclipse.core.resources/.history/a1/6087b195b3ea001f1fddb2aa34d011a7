@@ -1,0 +1,22 @@
+package com.clothico.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.clothico.entities.User;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+
+@RestController
+public class UserController {
+     
+	@PostMapping("/user")
+	public User addUserDetails(@RequestBody User user) {
+		//TODO: process POST request
+		
+		return null;
+	}
+	
+	
+}
